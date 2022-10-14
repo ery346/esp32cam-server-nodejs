@@ -40,13 +40,6 @@ const firebaseConfig = {
          });
   }
 
-  setInterval(() => {
-    try {
-        http.get("https://neon-fortune-mapusaurus.glitch.me");
-    } catch (error) {
-        // next(error);
-    }
-}, 258000); // cada 4.30 minutos (258000)
 
   server.listen(port, () => {
     // console.log('Servidor corriendo');
