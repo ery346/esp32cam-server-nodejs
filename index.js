@@ -42,5 +42,5 @@ const firebaseConfig = {
 
 
   server.listen(port, () => {
-    // console.log('Servidor corriendo');
+    console.log('Servidor corriendo');
 })
